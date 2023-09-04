@@ -6,8 +6,8 @@ Custom icon pack designed for Home Assistant.
 
 ## Generic content
 
-![Preview](./svg/intercom.svg) intercom<br />
-![Preview](./svg/intercom-off.svg) intercom-off<br />
+![Preview](./svg/Intercom-a.svg) intercom-a<br />
+![Preview](./svg/intercom-a-off.svg) intercom-a-off<br />
 
 ## Install
 
