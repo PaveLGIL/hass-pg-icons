@@ -13,6 +13,8 @@ Custom icon pack designed for Home Assistant.
 ![Preview](./svg/convector.svg) convector<br />
 ![Preview](./svg/convector-disabled.svg) convector-disabled<br />
 ![Preview](./svg/convector-off.svg) convector-off<br />
+![Preview](./svg/floor-lamp-on.svg) floor-lamp-on<br />
+![Preview](./svg/floor-lamp-off.svg) floor-lamp-off<br />
 
 ## Install
 
