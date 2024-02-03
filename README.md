@@ -17,7 +17,6 @@ Custom icon pack designed for Home Assistant.
 ![Preview](./svg/floor-lamp-off.svg) floor-lamp-off<br />
 ![Preview](./svg/working-table-on.svg) working-table-on<br />
 ![Preview](./svg/working-table-off.svg) working-table-off<br />
-![Preview](./svg/bulb.svg) bulb-on<br />
 
 ## Install
 
