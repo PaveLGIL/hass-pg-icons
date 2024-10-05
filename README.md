@@ -18,7 +18,7 @@ Custom icon pack designed for Home Assistant.
 ![Preview](./svg/working-table-on.svg) working-table-on<br />
 ![Preview](./svg/working-table-off.svg) working-table-off<br />
 ![Preview](./svg/wall-lamp.svg) wall-lamp<br />
-![Preview](./svg/wall-lamp-vertical.svg) wall-lamp<br />
+![Preview](./svg/wall-lamp-vertical.svg) wall-lamp-vertical<br />
 ![Preview](./svg/bulb.svg) bulb-on<br />
 
 ## Install
