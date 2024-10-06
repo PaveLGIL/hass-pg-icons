@@ -62,11 +62,11 @@ async function getIcon(name) {
   return {path: PG_ICONS_MAP[name]?.path};
 }
 
-async function getIcon(name) {
-  const path = PG_ICONS_MAP[name]?.path;
-  return {
-    path: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">${path}</svg>`
-  };
+async function getIconList() {
+  return Object.entries(PG_ICONS_MAP).map(([icon, content]) => ({
+    name: icon,
+    keywords: content.keywords,
+  }));
 }
 
 window.customIcons = window.customIcons || {};
