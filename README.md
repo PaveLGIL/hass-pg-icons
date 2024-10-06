@@ -10,7 +10,7 @@ Custom icon pack designed for Home Assistant.
 ![Preview](./svg/intercom-a-off.svg) intercom-a-off<br />
 ![Preview](./svg/intercom-b.svg) intercom-b<br />
 ![Preview](./svg/intercom-b-off.svg) intercom-b-off<br />
-![Preview](./svg/convector.svg) convector<br />
+![Preview](./svg/convector-on.svg) convector<br />
 ![Preview](./svg/convector-disabled.svg) convector-disabled<br />
 ![Preview](./svg/convector-off.svg) convector-off<br />
 ![Preview](./svg/floor-lamp-on.svg) floor-lamp-on<br />
