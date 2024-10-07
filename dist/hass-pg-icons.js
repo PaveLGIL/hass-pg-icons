@@ -59,18 +59,29 @@ const PG_ICONS_MAP = {
 };
 
 async function getIcon(name) {
-  return {path: PG_ICONS_MAP[name]?.path};
-}
+  let new_name;
 
+  if (!(name in CUSTOM_ICONS_MAP)) {
+    // try swapping the '_' for a '-'
+    new_name = name.replace(/_/gm, `-`);
+    if (!(new_name in CUSTOM_ICONS_MAP)) {
+      console.log(`Icon "${name}" is not available`);
+      return '';
+    }else{
+      console.log(`Aliased "${name}" with "${new_name}"`);
+      return {path: CUSTOM_ICONS_MAP[new_name].path};
+    }
+  }
+  return {path: CUSTOM_ICONS_MAP[name].path};
+}
 async function getIconList() {
-  return Object.entries(PG_ICONS_MAP).map(([icon, content]) => ({
+  return Object.entries(CUSTOM_ICONS_MAP).map(([icon, content]) => ({
     name: icon,
     keywords: content.keywords,
   }));
 }
-
 window.customIcons = window.customIcons || {};
-window.customIcons["pg"] = { getIcon, getIconList };
+window.customIcons["cil"] = { getIcon, getIconList };
 
 window.customIconsets = window.customIconsets || {};
-window.customIconsets["pg"] = getIcon;
+window.customIconsets["cil"] = getIcon;
